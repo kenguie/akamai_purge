@@ -1,0 +1,19 @@
+{
+  "name": "akamai_purge",
+  "version": "1.0.4",
+  "description": "purge files you work on hosted by Akamai with your token info",
+  "main": "newPurge.js",
+  "scripts": {
+    "test": "node newPurge.js"
+  },
+  "keywords": [
+    "Akamai",
+    "Purge"
+  ],
+  "author": "Kenrick Guie <kg@kenguie.com> (http://kenguie.com)",
+  "license": "ISC",
+  "dependencies": {
+    "akamai-ccu-purge": "^0.2.3",
+    "prompt": "^0.2.14"
+  }
+}
